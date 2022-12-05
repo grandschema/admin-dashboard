@@ -1,0 +1,108 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    width: 100%;
+}
+
+.container {
+    background-color: rgb(231, 231, 231);
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 12% 90%;
+}
+
+/* Dashboard Section */
+
+#dashboard-section {
+    background-color: rgb(103, 103, 250);
+    color: white;
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+}
+
+#dashboard-section h2 {
+    padding: 10px 0 40px 40px;
+}
+
+.main-nav ul{
+    list-style-type: none;
+}
+
+.main-nav li {
+    font-size: 1.2rem;
+    padding-bottom: 20px;
+}
+
+.secondary-nav {
+    margin-top: 40px;
+}
+
+.secondary-nav ul{
+    list-style-type: none;
+}
+
+.secondary-nav li {
+    font-size: 1.2rem;
+    padding-bottom: 20px;
+}
+
+/* Header Section */
+
+#header-section {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 50% 50%;
+}
+
+input {
+    width: 50%;
+    height: 30px;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    margin: 20px 0 20px 40px;
+    border-radius: 25px;
+    background-color: rgb(231, 231, 231);
+}
+
+#header-section h3 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    margin: 20px 40px 20px 0;
+    text-align: right;
+}
+
+#header-section p {
+    margin-top: -5px;
+    margin-left: 80px;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+#header-section h2 {
+    margin-left: 80px;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.header-btn-group {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    margin-top: 28px;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    padding-left: 120px;
+}
+
+button {
+    width: 75px;
+    height: 30px;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
