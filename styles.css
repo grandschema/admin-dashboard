@@ -13,7 +13,7 @@ body {
     margin: 0 auto;
     display: grid;
     grid-template-columns: 20% 80%;
-    grid-template-rows: 12% 90%;
+    grid-template-rows: 12% 50%;
 }
 
 /* Dashboard Section */
@@ -106,3 +106,100 @@ button {
     margin-right: 10px;
 }
 
+/* Content Section - Project Cards */
+
+#content-section {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    display: grid;
+    grid-template-columns: 35% 35% 30%;
+    grid-template-rows: 25% 25% 25%;
+    row-gap: 30px;
+}
+
+#content-section h3 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    margin-left: 20px;
+}
+
+.project-card {
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.card1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    margin: 60px 0 20px 20px;
+    background-color: white;
+    padding: 20px 20px 0 20px;
+    border-radius: 10px;
+    border-left: 5px solid orange;
+    box-shadow: 4px 3px 5px grey;
+}
+
+.card2 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    margin: 60px 0 20px 20px;
+    background-color: white;
+    padding: 20px 20px 0 20px;
+    border-radius: 10px;
+    border-left: 5px solid orange;
+    box-shadow: 4px 3px 5px grey;
+}
+
+.card3 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    margin: 60px 0 20px 20px;
+    background-color: white;
+    padding: 20px 20px 0 20px;
+    border-radius: 10px;
+    border-left: 5px solid orange;
+    box-shadow: 4px 3px 5px grey;
+}
+
+.card4 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    margin: 60px 0 20px 20px;
+    background-color: white;
+    padding: 20px 20px 0 20px;
+    border-radius: 10px;
+    border-left: 5px solid orange;
+    box-shadow: 4px 3px 5px grey;
+}
+
+.card5 {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    margin: 60px 0 20px 20px;
+    background-color: white;
+    padding: 20px 20px 0 20px;
+    border-radius: 10px;
+    border-left: 5px solid orange;
+    box-shadow: 4px 3px 5px grey;
+}
+
+.card6 {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    margin: 60px 0 20px 20px;
+    background-color: white;
+    padding: 20px 20px 0 20px;
+    border-radius: 10px;
+    border-left: 5px solid orange;
+    box-shadow: 4px 3px 5px grey;
+}
+
+/* Content Sidebar */
+.announcement-card {
+    background-color: white;
+    margin-left: 20px;
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    box-shadow: 4px 3px 5px grey;
+}
